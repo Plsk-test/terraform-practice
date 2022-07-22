@@ -12,7 +12,9 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
+
     hostname = "app.terraform.io"
+
     organization = "ACG-Terraform-Labs-Bato"
 
     workspaces {
